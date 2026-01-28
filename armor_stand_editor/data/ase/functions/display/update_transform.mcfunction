@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @e[type=item_display,tag=ase.display,limit=1,sort=nearest,distance=..1] transformation set from storage ase:display_transform transformation
