@@ -1,0 +1,12 @@
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s Pose set from storage ase:undo Pose
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s ArmorItems set from storage ase:undo ArmorItems
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s HandItems set from storage ase:undo HandItems
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s Rotation set from storage ase:undo Rotation
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s Pos set from storage ase:undo Pos
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s ShowArms set from storage ase:undo ShowArms
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s Small set from storage ase:undo Small
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s Invisible set from storage ase:undo Invisible
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s Marker set from storage ase:undo Marker
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s NoGravity set from storage ase:undo NoGravity
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s NoBasePlate set from storage ase:undo NoBasePlate
+execute as @e[type=armor_stand,tag=ase.selected,limit=1,sort=nearest,distance=..6] run data modify entity @s CustomNameVisible set from storage ase:undo CustomNameVisible

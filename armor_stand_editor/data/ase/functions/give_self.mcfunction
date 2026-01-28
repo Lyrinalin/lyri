@@ -1,0 +1,2 @@
+give @s minecraft:carrot_on_a_stick[custom_data={ase_key:1},custom_name='{"text":"Жезл редактора","italic":false}',lore=['{"text":"Правый клик: выбрать стойку","color":"gray","italic":false}','{"text":"Shift+ПКМ: открыть меню","color":"gray","italic":false}']] 1
+give @s minecraft:written_book[custom_name='{"text":"Меню ASE","italic":false}',lore=['{"text":"Откройте через ПКМ","color":"gray","italic":false}'],written_book_content={title:"ASE",author:"ASE",pages:['{"text":"Открыть меню","color":"gold","clickEvent":{"action":"run_command","value":"/function ase:menu/open"}}']}]
