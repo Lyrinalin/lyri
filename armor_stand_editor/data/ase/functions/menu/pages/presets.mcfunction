@@ -1,0 +1,8 @@
+
+tellraw @s [{"text":"-- Пресеты --","color":"aqua"}]
+tellraw @s [{"text":"Манекен","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/mannequin"}},{"text":" | Сидит","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/sit"}},{"text":" | Наклон","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/lean"}}]
+tellraw @s [{"text":"Фонарь","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:display/presets/lantern"}},{"text":" | Табличка","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:display/presets/sign"}},{"text":" | Статуя","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:display/presets/statue"}}]
+tellraw @s [{"text":"Сохранить пресет 1","color":"green","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/save_1"}},{"text":" | Применить 1","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/apply_1"}}]
+tellraw @s [{"text":"Сохранить пресет 2","color":"green","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/save_2"}},{"text":" | Применить 2","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/apply_2"}}]
+tellraw @s [{"text":"Сохранить пресет 3","color":"green","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/save_3"}},{"text":" | Применить 3","color":"yellow","clickEvent":{"action":"run_command","value":"/function ase:stand/preset/apply_3"}}]
+tellraw @s [{"text":"Назад","color":"gray","clickEvent":{"action":"run_command","value":"/function ase:menu/pages/main"}}]
